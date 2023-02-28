@@ -65,7 +65,9 @@ Alicloud AiREC: Enhanced Opposite side recommendation engine
 
 Alicloud NLP: For natural language understanding
 
-…( Contact team if more information is needed)
+…
+
+(Contact team if more information is needed)
 
 # References/Appendix
 Research on the influence mechanism of anchors’ professionalism on consumers’ impulse buying intention in the livestream shopping scenario 2022 Liu Et al
