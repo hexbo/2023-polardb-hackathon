@@ -7,7 +7,9 @@ The use of livestreaming has grown greatly recently due to changes in consumer h
 - What to sell and do at the point of time to gather maximum conversion and enhancement of relationships(The current schedule of products is determined by commercial order and loudest person in the room)
 
 ![](2023-03-01-00-54-20.png)
+
 ![Figure 1: Strong association between buying intention and effective communication](2023-03-01-00-54-37.png)
+
 *Figure 1: Strong association between buying intention and effective communication*
 
 The ability to do this well makes is requires much training as well as experience to be able to do so, however even with training and experience, it is challenging to do so well due to the messages which are present and the number of fans which might be present.
@@ -39,10 +41,13 @@ To aid livestreamers , Inspi uses the user persona of the users present to
 # Modular/API Connections: 
 ## PolarDB X Insp: Providing low latency concurrent high impact usable insights
 ![](2023-03-01-00-57-52.png)
+
 **Speed through Read-Write**: separation Insp requires speedy provision of insights it uses PolarDB to provide a cluster address for  read and write consistency, some read and write transactions are automatically distributed to the master-slave database, and the load-based automatic scheduling strategy is automatically scheduled according to the number of active connections to achieve multiple load balancing among nodes increasing the QPS available. 
 
 Data Consistency in critical conditions
+
 ![](2023-03-01-00-58-23.png)
+
 **Traffic Spikes during Live-streams adding of slave nodes**: Livestreams are characterized by spikes in volume, Polardb allows speedy adding slaves during short term stochastic needs The presence of the RDMA traffic distribution also helps to skip the OS buffering which is needed for most SQL systems. 
 
 **Faster adding Feature based data(innodb_support_instant_add_column)**: The instant algorithm makes it no longer necessary to rebuild the entire table when adding columns. It only needs to obtain the MDL lock briefly and record the basic information of the newly added columns in the metadata of the table. For indexing, PolarDB supports parallel DDL and DDL physical copy optimization functions.
@@ -52,9 +57,13 @@ Data Consistency in critical conditions
 
 ## Other AliCloud Products used
 Alicloud PAI: For algorithm development, training and deployment
+
 Alicloud OCR: Recognition of content during Product Portfolio input and enhancement 
+
 Alicloud AiREC: Enhanced Opposite side recommendation engine 
+
 Alicloud NLP: For natural language understanding
+
 …( Contact team if more information is needed)
 
 # References/Appendix
