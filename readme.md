@@ -53,6 +53,7 @@ Data Consistency in critical conditions
 **Faster adding Feature based data(innodb_support_instant_add_column)**: The instant algorithm makes it no longer necessary to rebuild the entire table when adding columns. It only needs to obtain the MDL lock briefly and record the basic information of the newly added columns in the metadata of the table. For indexing, PolarDB supports parallel DDL and DDL physical copy optimization functions.
 
 ![](2023-03-01-00-58-54.png)
+
 *Figure 2: PolarDb instant Algorithmn ensures provides sample case where red is the improvement*
 
 ## Other AliCloud Products used
